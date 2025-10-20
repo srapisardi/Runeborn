@@ -19,7 +19,13 @@ ground = Entity(
 )
 
 # Player entity
-player = Entity(model='cube', color=color.azure, scale_y=1.2, position=(0, 0.6, 0), collider='box')
+player = Entity(
+    model='assets/vietnam_soldier.obj',  # Path to your model
+    texture='white_cube',             # Optional: can use a custom texture
+    scale=0.3,
+    position=(0, 0, 0),
+    collider='box'
+)
 
 # Camera setup (top-down view)
 camera.parent = None
