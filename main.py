@@ -22,7 +22,7 @@ ground = Entity(
 player = Entity(
     model='assets/vietnam_soldier.obj',  # Path to your model
     texture='white_cube',             # Optional: can use a custom texture
-    scale=0.3,
+    scale=.3,
     position=(0, 0, 0),
     collider='box'
 )
